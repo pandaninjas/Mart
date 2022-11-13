@@ -18,6 +18,7 @@ jobs:
         with:
           node-version: 16.x
       - run: npm i -g @neutralinojs/neu
+      - run: which neu
       - run: neu update 
       - run: neu build
       - name: Upload a Build Artifact
