@@ -2,7 +2,7 @@ name: Build neutralino binaries
 
 on:
   push:
-    branches: [ master ]
+    branches: [ testing ]
   pull_request:
     branches: [ master ]
 
